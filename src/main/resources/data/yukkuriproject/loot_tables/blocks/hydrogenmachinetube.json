@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "yukkuriproject:blocks/hydrogenmachinetube",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "yukkuriproject:hydrogenmachinetube",
+          "conditions": [
+            {
+              "block": "yukkuriproject:hydrogenmachinetube",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

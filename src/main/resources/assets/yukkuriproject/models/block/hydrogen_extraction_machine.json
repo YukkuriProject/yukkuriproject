@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yukkuriproject:block/h1",
+    "up": "yukkuriproject:block/h3",
+    "north": "yukkuriproject:block/h",
+    "east": "yukkuriproject:block/h",
+    "south": "yukkuriproject:block/h",
+    "west": "yukkuriproject:block/h",
+    "particle": "yukkuriproject:block/h1"
+  },
+  "render_type": "solid"
+}

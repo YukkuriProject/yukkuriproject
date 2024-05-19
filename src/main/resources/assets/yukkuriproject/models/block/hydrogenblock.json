@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yukkuriproject:block/hydrogen",
+    "up": "yukkuriproject:block/hydrogen",
+    "north": "yukkuriproject:block/hydrogen",
+    "east": "yukkuriproject:block/hydrogen",
+    "south": "yukkuriproject:block/hydrogen",
+    "west": "yukkuriproject:block/hydrogen",
+    "particle": "yukkuriproject:block/hydrogen"
+  },
+  "render_type": "solid"
+}

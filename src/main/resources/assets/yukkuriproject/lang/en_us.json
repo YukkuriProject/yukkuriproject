@@ -1,0 +1,18 @@
+{
+  "block.yukkuriproject.machinetube": "Machinetube",
+  "block.yukkuriproject.hydrogen_extraction_machine": "Water Extraction Machine",
+  "gui.yukkuriproject.hydrogen_egui.label_hydrogen": "Hydrogen",
+  "gui.yukkuriproject.hydrogen_egui.label_water_extraction_machine": "water extraction machine",
+  "item.minecraft.tipped_arrow.effect.hydrogen": "Arrow of Hydrogen",
+  "block.yukkuriproject.hydrogenblock": "Hydrogenblock",
+  "item.minecraft.potion.effect.hydrogen": "Potion of Hydrogen",
+  "item.minecraft.splash_potion.effect.hydrogen": "Splash Potion of Hydrogen",
+  "gui.yukkuriproject.hydrogen_egui.label_magma": "magma",
+  "block.yukkuriproject.hydrogenmachinetube": "Hydrogenmachinetube",
+  "item.yukkuriproject.hydrogenwater": "Hydrogenwater",
+  "gui.yukkuriproject.hydrogen_egui.button_extraction": "Extraction",
+  "gui.yukkuriproject.hydrogen_egui.label_redstone": "redstone",
+  "gui.yukkuriproject.hydrogen_egui.label_piston": "piston",
+  "item.minecraft.lingering_potion.effect.hydrogen": "Lingering Potion of Hydrogen",
+  "gui.yukkuriproject.hydrogen_egui.label_bottle": "bottle"
+}

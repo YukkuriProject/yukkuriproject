@@ -1,0 +1,30 @@
+{
+  "_fv": 60,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Hydrogen",
+    "splashName": "Splash Potion of Hydrogen",
+    "lingeringName": "Lingering Potion of Hydrogen",
+    "arrowName": "Arrow of Hydrogen",
+    "effects": [
+      {
+        "effect": {
+          "value": "INSTANT_DAMAGE"
+        },
+        "duration": 3621,
+        "amplifier": 255,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "BLINDNESS"
+        },
+        "duration": 3645,
+        "amplifier": 255,
+        "ambient": true,
+        "showParticles": true
+      }
+    ]
+  }
+}

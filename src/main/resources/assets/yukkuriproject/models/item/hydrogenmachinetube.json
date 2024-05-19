@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "yukkuriproject:block/hydorogentubetube2"
+  },
+  "render_type": "cutout_mipped"
+}

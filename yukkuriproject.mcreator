@@ -1,0 +1,252 @@
+{
+  "mod_elements": [
+    {
+      "name": "Hydrogenwater",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrogenwater",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yukkuriproject/models/item/hydrogenwater.json",
+          "src/main/java/yukkuriproject_hydrogen/item/HydrogenwaterItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Hydrogen",
+      "type": "potion",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrogen",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Hydrogenblock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrogenblock",
+      "metadata": {
+        "files": [
+          "src/main/java/yukkuriproject_hydrogen/block/HydrogenblockBlock.java",
+          "src/main/resources/assets/yukkuriproject/blockstates/hydrogenblock.json",
+          "src/main/java/yukkuriproject_hydrogen/block/entity/HydrogenblockBlockEntity.java",
+          "src/main/resources/assets/yukkuriproject/models/item/hydrogenblock.json",
+          "src/main/resources/assets/yukkuriproject/models/block/hydrogenblock.json",
+          "src/main/resources/data/yukkuriproject/loot_tables/blocks/hydrogenblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Machinetube",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machinetube",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yukkuriproject/blockstates/machinetube.json",
+          "src/main/resources/assets/yukkuriproject/models/block/machinetube_side.json",
+          "src/main/resources/assets/yukkuriproject/models/block/machinetube_noside.json",
+          "src/main/java/yukkuriproject_hydrogen/block/MachinetubeBlock.java",
+          "src/main/resources/assets/yukkuriproject/models/item/machinetube.json",
+          "src/main/resources/assets/yukkuriproject/models/block/machinetube_post.json",
+          "src/main/resources/assets/yukkuriproject/models/block/machinetube_side_alt.json",
+          "src/main/resources/assets/yukkuriproject/models/block/machinetube_noside_alt.json",
+          "src/main/resources/data/yukkuriproject/loot_tables/blocks/machinetube.json"
+        ]
+      }
+    },
+    {
+      "name": "Hydrogenmachinetube",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrogenmachinetube",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yukkuriproject/models/block/hydrogenmachinetube_bottom_right.json",
+          "src/main/resources/assets/yukkuriproject/models/block/hydrogenmachinetube_bottom_left_open.json",
+          "src/main/resources/assets/yukkuriproject/models/block/hydrogenmachinetube_top_right_open.json",
+          "src/main/java/yukkuriproject_hydrogen/block/HydrogenmachinetubeBlock.java",
+          "src/main/resources/assets/yukkuriproject/models/block/hydrogenmachinetube_bottom_right_open.json",
+          "src/main/resources/data/yukkuriproject/loot_tables/blocks/hydrogenmachinetube.json",
+          "src/main/resources/assets/yukkuriproject/models/block/hydrogenmachinetube_top_left_open.json",
+          "src/main/resources/assets/yukkuriproject/models/block/hydrogenmachinetube_bottom_left.json",
+          "src/main/resources/assets/yukkuriproject/models/block/hydrogenmachinetube_top_right.json",
+          "src/main/resources/assets/yukkuriproject/models/block/hydrogenmachinetube_top_left.json",
+          "src/main/resources/assets/yukkuriproject/models/item/hydrogenmachinetube.json",
+          "src/main/resources/assets/yukkuriproject/blockstates/hydrogenmachinetube.json"
+        ]
+      }
+    },
+    {
+      "name": "HydrogenExtractionMachine",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrogen_extraction_machine",
+      "metadata": {
+        "files": [
+          "src/main/java/yukkuriproject_hydrogen/block/HydrogenExtractionMachineBlock.java",
+          "src/main/resources/assets/yukkuriproject/models/block/hydrogen_extraction_machine.json",
+          "src/main/resources/data/yukkuriproject/loot_tables/blocks/hydrogen_extraction_machine.json",
+          "src/main/resources/assets/yukkuriproject/models/item/hydrogen_extraction_machine.json",
+          "src/main/resources/assets/yukkuriproject/blockstates/hydrogen_extraction_machine.json"
+        ]
+      }
+    },
+    {
+      "name": "HydrogenEGUI",
+      "type": "gui",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrogen_egui",
+      "metadata": {
+        "files": [
+          "src/main/java/yukkuriproject_hydrogen/client/gui/HydrogenEGUIScreen.java",
+          "src/main/java/yukkuriproject_hydrogen/world/inventory/HydrogenEGUIMenu.java",
+          "src/main/java/yukkuriproject_hydrogen/network/HydrogenEGUIButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "HydrogenGUIp",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrogen_gu_ip",
+      "metadata": {
+        "files": [
+          "src/main/java/yukkuriproject_hydrogen/procedures/HydrogenGUIpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hyblop",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyblop",
+      "metadata": {
+        "files": [
+          "src/main/java/yukkuriproject_hydrogen/procedures/HyblopProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HydrogenblockburotukugaZhuiJiasaretatoki",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrogenblockburotukuga_zhui_jiasaretatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/yukkuriproject_hydrogen/procedures/HydrogenblockburotukugaZhuiJiasaretatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:HydrogenExtractionMachine"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:HydrogenExtractionMachine"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "block.yukkuriproject.machinetube": "Machinetube",
+      "block.yukkuriproject.hydrogen_extraction_machine": "Water Extraction Machine",
+      "gui.yukkuriproject.hydrogen_egui.label_hydrogen": "Hydrogen",
+      "gui.yukkuriproject.hydrogen_egui.label_water_extraction_machine": "water extraction machine",
+      "item.minecraft.tipped_arrow.effect.hydrogen": "Arrow of Hydrogen",
+      "block.yukkuriproject.hydrogenblock": "Hydrogenblock",
+      "item.minecraft.potion.effect.hydrogen": "Potion of Hydrogen",
+      "item.minecraft.splash_potion.effect.hydrogen": "Splash Potion of Hydrogen",
+      "gui.yukkuriproject.hydrogen_egui.label_magma": "magma",
+      "block.yukkuriproject.hydrogenmachinetube": "Hydrogenmachinetube",
+      "item.yukkuriproject.hydrogenwater": "Hydrogenwater",
+      "gui.yukkuriproject.hydrogen_egui.button_extraction": "Extraction",
+      "gui.yukkuriproject.hydrogen_egui.label_redstone": "redstone",
+      "gui.yukkuriproject.hydrogen_egui.label_piston": "piston",
+      "item.minecraft.lingering_potion.effect.hydrogen": "Lingering Potion of Hydrogen",
+      "gui.yukkuriproject.hydrogen_egui.label_bottle": "bottle"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "yukkuriproject",
+    "modName": "YukkuriProject",
+    "version": "1.0.0",
+    "author": "emi08, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "yukkuriproject_hydrogen"
+  },
+  "mcreatorVersion": 202400118518
+}

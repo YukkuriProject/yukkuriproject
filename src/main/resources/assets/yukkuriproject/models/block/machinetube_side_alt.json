@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "yukkuriproject:block/tube",
+    "pane": "yukkuriproject:block/tube"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "yukkuriproject:block/hydrogen_extraction_machine"
+    },
+    "facing=east": {
+      "model": "yukkuriproject:block/hydrogen_extraction_machine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "yukkuriproject:block/hydrogen_extraction_machine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "yukkuriproject:block/hydrogen_extraction_machine",
+      "y": 270
+    }
+  }
+}
