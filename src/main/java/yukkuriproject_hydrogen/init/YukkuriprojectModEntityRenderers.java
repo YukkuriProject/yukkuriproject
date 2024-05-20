@@ -21,6 +21,6 @@ public class YukkuriprojectModEntityRenderers {
 
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
-		event.registerLayerDefinition(HV000Model.LAYER_LOCATION, HV000Model::createOuterBodyLayer);
+		event.registerLayerDefinition(HV000Model.LAYER_LOCATION, HV000Model::createBodyLayer);
 	}
 }
