@@ -25,6 +25,9 @@ runs
 # Files from Forge MDK
 forge*changelog.txt
 
+# MCreator
+.mcreator
+
 # MacOS
 .DS_Store
 
