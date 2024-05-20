@@ -196,6 +196,21 @@
           }
         ]
       }
+    },
+    {
+      "name": "HV000",
+      "type": "livingentity",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hv_000",
+      "metadata": {
+        "files": [
+          "src/main/java/yukkuriproject_hydrogen/client/renderer/HV000Renderer.java",
+          "src/main/resources/assets/yukkuriproject/models/item/hv_000_spawn_egg.json",
+          "src/main/java/yukkuriproject_hydrogen/entity/HV000Entity.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -220,6 +235,8 @@
       "item.minecraft.splash_potion.effect.hydrogen": "Splash Potion of Hydrogen",
       "gui.yukkuriproject.hydrogen_egui.label_magma": "magma",
       "block.yukkuriproject.hydrogenmachinetube": "Hydrogenmachinetube",
+      "item.yukkuriproject.hv_000_spawn_egg": "HV 0 0 0 Spawn Egg",
+      "entity.yukkuriproject.hv_000": "HV 0 0 0",
       "item.yukkuriproject.hydrogenwater": "Hydrogenwater",
       "gui.yukkuriproject.hydrogen_egui.button_extraction": "Extraction",
       "gui.yukkuriproject.hydrogen_egui.label_redstone": "redstone",

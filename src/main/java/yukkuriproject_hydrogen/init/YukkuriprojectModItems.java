@@ -10,6 +10,7 @@ import yukkuriproject_hydrogen.YukkuriprojectMod;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 import net.neoforged.bus.api.IEventBus;
 
 import net.minecraft.world.level.block.Block;
@@ -25,6 +26,7 @@ public class YukkuriprojectModItems {
 	public static final DeferredHolder<Item, Item> MACHINETUBE = block(YukkuriprojectModBlocks.MACHINETUBE);
 	public static final DeferredHolder<Item, Item> HYDROGENMACHINETUBE = doubleBlock(YukkuriprojectModBlocks.HYDROGENMACHINETUBE);
 	public static final DeferredHolder<Item, Item> HYDROGEN_EXTRACTION_MACHINE = block(YukkuriprojectModBlocks.HYDROGEN_EXTRACTION_MACHINE);
+	public static final DeferredHolder<Item, Item> HV_000_SPAWN_EGG = REGISTRY.register("hv_000_spawn_egg", () -> new DeferredSpawnEggItem(YukkuriprojectModEntities.HV_000, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

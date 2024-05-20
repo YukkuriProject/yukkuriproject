@@ -4,6 +4,7 @@ import yukkuriproject_hydrogen.init.YukkuriprojectModTabs;
 import yukkuriproject_hydrogen.init.YukkuriprojectModPotions;
 import yukkuriproject_hydrogen.init.YukkuriprojectModMenus;
 import yukkuriproject_hydrogen.init.YukkuriprojectModItems;
+import yukkuriproject_hydrogen.init.YukkuriprojectModEntities;
 import yukkuriproject_hydrogen.init.YukkuriprojectModBlocks;
 import yukkuriproject_hydrogen.init.YukkuriprojectModBlockEntities;
 
@@ -46,7 +47,7 @@ public class YukkuriprojectMod {
 		YukkuriprojectModBlocks.REGISTRY.register(modEventBus);
 		YukkuriprojectModBlockEntities.REGISTRY.register(modEventBus);
 		YukkuriprojectModItems.register(modEventBus);
-
+		YukkuriprojectModEntities.REGISTRY.register(modEventBus);
 		YukkuriprojectModTabs.REGISTRY.register(modEventBus);
 
 		YukkuriprojectModPotions.REGISTRY.register(modEventBus);

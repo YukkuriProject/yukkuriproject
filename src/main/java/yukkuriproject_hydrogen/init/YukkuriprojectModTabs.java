@@ -25,6 +25,8 @@ public class YukkuriprojectModTabs {
 			tabData.accept(YukkuriprojectModBlocks.HYDROGENMACHINETUBE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(YukkuriprojectModBlocks.HYDROGENBLOCK.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(YukkuriprojectModItems.HV_000_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(YukkuriprojectModBlocks.HYDROGEN_EXTRACTION_MACHINE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {

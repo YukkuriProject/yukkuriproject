@@ -9,6 +9,8 @@
   "item.minecraft.splash_potion.effect.hydrogen": "Splash Potion of Hydrogen",
   "gui.yukkuriproject.hydrogen_egui.label_magma": "magma",
   "block.yukkuriproject.hydrogenmachinetube": "Hydrogenmachinetube",
+  "item.yukkuriproject.hv_000_spawn_egg": "HV 0 0 0 Spawn Egg",
+  "entity.yukkuriproject.hv_000": "HV 0 0 0",
   "item.yukkuriproject.hydrogenwater": "Hydrogenwater",
   "gui.yukkuriproject.hydrogen_egui.button_extraction": "Extraction",
   "gui.yukkuriproject.hydrogen_egui.label_redstone": "redstone",
