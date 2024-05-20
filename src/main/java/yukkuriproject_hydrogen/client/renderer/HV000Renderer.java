@@ -1,17 +1,17 @@
 
 package yukkuriproject_hydrogen.client.renderer;
 
+import yukkuriproject_hydrogen.client.model.HV000Model;
 import yukkuriproject_hydrogen.entity.HV000Entity;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.SlimeModel;
 
-public class HV000Renderer extends MobRenderer<HV000Entity, SlimeModel<HV000Entity>> {
+public class HV000Renderer extends MobRenderer<HV000Entity, HV000Model<HV000Entity>> {
 	public HV000Renderer(EntityRendererProvider.Context context) {
-		super(context, new SlimeModel(context.bakeLayer(ModelLayers.SLIME)), 0.5f);
+		super(context, new HV000Model<>(context.bakeLayer(HV000Model.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override
