@@ -25,6 +25,7 @@ public class YukkuriprojectModItems {
 	public static final DeferredHolder<Item, Item> MACHINETUBE = block(YukkuriprojectModBlocks.MACHINETUBE);
 	public static final DeferredHolder<Item, Item> HYDROGENMACHINETUBE = doubleBlock(YukkuriprojectModBlocks.HYDROGENMACHINETUBE);
 	public static final DeferredHolder<Item, Item> HYDROGEN_EXTRACTION_MACHINE = block(YukkuriprojectModBlocks.HYDROGEN_EXTRACTION_MACHINE);
+	public static final DeferredHolder<Item, Item> DONALD_BLOCK = block(YukkuriprojectModBlocks.DONALD_BLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

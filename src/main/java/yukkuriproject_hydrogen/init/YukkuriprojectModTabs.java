@@ -29,6 +29,8 @@ public class YukkuriprojectModTabs {
 			tabData.accept(YukkuriprojectModBlocks.HYDROGEN_EXTRACTION_MACHINE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(YukkuriprojectModItems.HYDROGENWATER.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(YukkuriprojectModBlocks.DONALD_BLOCK.get().asItem());
 		}
 	}
 }

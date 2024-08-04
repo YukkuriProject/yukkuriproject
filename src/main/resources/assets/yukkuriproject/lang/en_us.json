@@ -14,5 +14,7 @@
   "gui.yukkuriproject.hydrogen_egui.label_redstone": "redstone",
   "gui.yukkuriproject.hydrogen_egui.label_piston": "piston",
   "item.minecraft.lingering_potion.effect.hydrogen": "Lingering Potion of Hydrogen",
-  "gui.yukkuriproject.hydrogen_egui.label_bottle": "bottle"
+  "gui.yukkuriproject.hydrogen_egui.label_bottle": "bottle",
+  "sounds.yukkuriproject.donald_magic": "Donald Magic",
+  "death.attack.yukkuriproject.donald_magic": ""
 }

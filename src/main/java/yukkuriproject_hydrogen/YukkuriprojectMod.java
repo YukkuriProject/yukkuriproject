@@ -1,11 +1,7 @@
 package yukkuriproject_hydrogen;
 
-import yukkuriproject_hydrogen.init.YukkuriprojectModTabs;
-import yukkuriproject_hydrogen.init.YukkuriprojectModPotions;
-import yukkuriproject_hydrogen.init.YukkuriprojectModMenus;
-import yukkuriproject_hydrogen.init.YukkuriprojectModItems;
-import yukkuriproject_hydrogen.init.YukkuriprojectModBlocks;
-import yukkuriproject_hydrogen.init.YukkuriprojectModBlockEntities;
+import net.minecraft.client.Minecraft;
+import yukkuriproject_hydrogen.init.*;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -52,6 +48,10 @@ public class YukkuriprojectMod {
 		YukkuriprojectModPotions.REGISTRY.register(modEventBus);
 
 		YukkuriprojectModMenus.REGISTRY.register(modEventBus);
+
+		YukkuriprojectModEntityTypes.REGISTRY.register(modEventBus);
+
+		YukkuriprojectModSounds.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
