@@ -22,7 +22,7 @@ public class DonaldMagic extends PrimedTnt {
 
 
     private void init() {
-        this.setFuse(80);
+        this.setFuse(0);
     }
 
     @Override
